@@ -1,0 +1,15 @@
+<mat-toolbar color="primary" style="margin-bottom: 5px">
+  <div>
+    <span>Welcome to {{ title }}</span>
+  </div>
+</mat-toolbar>
+
+<div fxLayout="column">
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <button mat-raised-button color="primary" routerLink="/users" style="margin:5px">Feature Module One</button>
+    <button mat-raised-button color="accent" routerLink="/tasks" style="margin:5px">Feature Module Two</button>
+    <button mat-raised-button color="warn" routerLink="" style="margin:5px">Home</button>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

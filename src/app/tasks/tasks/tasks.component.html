@@ -1,0 +1,17 @@
+<div fxLayout="column" style="margin:5px">
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <span style="font-weight: bold; color: dimgrey;">
+      Feature Module Two Loaded!
+    </span>
+  </div>
+</div>
+
+<div fxLayout="column">
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <button mat-raised-button color="primary" routerLink="./task" style="margin:5px">Child Component One</button>
+    <button mat-raised-button color="accent" routerLink="./list" style="margin:5px">Child Component Two</button>
+    <button mat-raised-button color="warn" routerLink="." style="margin:5px">No Child Component</button>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
