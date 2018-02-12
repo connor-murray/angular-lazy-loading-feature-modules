@@ -1,6 +1,6 @@
 # Angular-Lazy-Loading-Feature-Modules
 
-Angular 5 application to demonstrate lazy loading of feature modules via routing.
+Angular application to demonstrate lazy loading of feature modules via routing.
 
 ## Lazy Loading
 
